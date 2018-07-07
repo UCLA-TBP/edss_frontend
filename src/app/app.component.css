@@ -1,0 +1,40 @@
+.cover {
+  height: 100%;
+  position: fixed;
+}
+
+.bg {
+  background-image: url("../assets/img/cover.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #1e87f0;
+}
+
+.landing-title {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+
+
+
+.uk-navbar-link-skin {
+  font-size: 24px;
+  color: white;
+}
+
+.uk-navbar-link-skin-left {
+  padding-left: 20px;
+}
+
+.uk-navbar-link-skin-right {
+  padding-right: 20px;
+}
