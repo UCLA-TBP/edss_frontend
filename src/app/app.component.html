@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>{{title}}</title>
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/css/uikit.min.css" />
@@ -12,66 +11,149 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <div class="uk-section-primary bg uk-preserve-color" uk-parallax="bgy: -400">
+    <div class="uk-section-primary bg uk-preserve-color" uk-parallax="bgy: 200">
       <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
         <nav class="uk-navbar-container uk-margin" uk-navbar>
           <div class="uk-navbar-left uk-navbar-link-skin">
-            <div class="uk-navbar-item">
-                <div><a href="#" class="uk-navbar-link-skin uk-navbar-link-skin-left">Info <span uk-icon="info"></span></a></div>
-            </div>
-            <div class="uk-navbar-item">
-                <div><a href="#" class="uk-navbar-link-skin uk-navbar-link-skin-left">Company Interest <span uk-icon="file-edit"></span></a></div>
-            </div>
           </div>
           <div class="uk-navbar-right">
             <div class="uk-navbar-item">
-                <div><a href="#" class="uk-navbar-link-skin uk-navbar-link-skin-right">Students<span uk-icon="triangle-down"></span></a></div>
+                <div><a href="#info" class="uk-navbar-link-skin uk-navbar-link-skin-left" uk-scroll>Info <span uk-icon="info"></span></a></div>
+            </div>
+            <div class="uk-navbar-item">
+                <div><a href="#" class="uk-navbar-link-skin uk-navbar-link-skin-left">Company Reg. <span uk-icon="file-edit"></span></a></div>
+            </div>
+            <div class="uk-navbar-item">
+              <div class="uk-inline">
+                  <a class="uk-navbar-link-skin uk-navbar-link-skin-right">Students <span uk-icon="user"></span></a>
+                  <div uk-dropdown="mode: click">Thanks for your interest! Registration is not currently open but please check back in August.</div>
+              </div>
+                <!--<div><a href="#" class="uk-navbar-link-skin uk-navbar-link-skin-right">Students <span uk-icon="user"></span></a></div>-->
             </div>
           </div>
         </nav>
       </div>
-            <h1 class="uk-text-center uk-text-middle landing-title">UCLA Engineering<br>Dean's Student Showcase</h1>
+      <h1 class="uk-text-center uk-text-middle landing-text landing-title">UCLA Engineering<br>Dean's Student Showcase</h1>
+      <h2 class="uk-text-center uk-text-middle landing-text landing-subtitle">October 30th, 2018<br>Engineering VI, 7-9pm</h2>
+    </div>
+    <div class="uk-section uk-section-primary">
+      <div id="info" class="target"></div>
+      <div class="uk-container">
+        <h2 class="uk-text-center" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">The Largest Collection of Talent at UCLA</h2>
+
+        <p class="uk-text-lead" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+          More than your average career fair, the Dean’s Student Showcase
+          is a partnership between the Samueli School of Engineering and
+          UCLA’s engineering honor societies to put on exclusive,
+          one-of-a-kind recruiting event. With admission limited to only
+          honor society members, this the perfect opportunity to interact
+          with some of the best candidates UCLA has to offer.
+        </p>
+      </div>
     </div>
     <div class="uk-section uk-section-muted">
-        <div class="uk-container">
+      <div class="uk-container">
+        <h2 class="uk-text-center" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">Meet the Honor Societies</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-
+        <div class="uk-text-center" uk-grid>
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: -50,0; y: -50,0; viewport: 0.5">
+            <a href="https://tbp.seas.ucla.edu" class="no-styling">
+              <div class="uk-card uk-card-hover uk-card-body">
+                <span class="uk-width-expand">
+                  <img class="uk-border-circle img-prof-size" src="assets/img/tbp-logo.png">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Tau Beta Pi | TBP</h3>
+                </span>
+                <p>
+                  Tau Beta Pi is the engineering honor society at UCLA, representing
+                  all engineering disciplines. Members have distinguished themselves
+                  academically by climbing to the top eighth of the junior class or
+                  top fifth of the senior class and have shown exemplary character
+                  through service to the community.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: 50,0; y: -50,0; viewport: 0.5">
+            <a href="http://hkn.ee.ucla.edu/#" class="no-styling">
+              <div class="uk-card uk-card-hover uk-card-body">
+                <span class="uk-width-expand">
+                  <img class="uk-border-circle img-prof-size" src="assets/img/hkn-logo.png">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Eta Kappa Nu | HKN</h3>
+                </span>
+                <p>
+                  Eta Kappa Nu (HKN) is an Electrical and Computer Engineering honor
+                  society that recognizes students who are in the top fourth of the
+                  junior class or top third of the senior class. Our members have
+                  demonstrated their dedication by serving fellow members of the
+                  Electrical and Computer Engineering community.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: -50,0; viewport: 0.3">
+            <a href="http://uclaxe.wixsite.com/ucla" class="no-styling">
+              <div class="uk-card uk-card-hover uk-card-body">
+                <span class="uk-width-expand">
+                  <img class="uk-border-circle img-prof-size"src="assets/img/xe-logo.png">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Chi Epsilon | XE</h3>
+                </span>
+                <p>
+                  Chi Epsilon is a civil engineering honor society where students
+                  and professionals are selected to become members based on recognition
+                  of their scholarship, character, practicality and sociability.
+                  For student members, scholarship is determined by being in the
+                  top third of their junior or senior class. Members of Chi Epsilon
+                  are considered top graduates and are highly sought by civil engineering employers.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: 50,0; viewport: 0.3">
+            <a href="https://upe.seas.ucla.edu/" class="no-styling">
+              <div class="uk-card uk-card-hover uk-card-body">
+                <span class="uk-width-expand">
+                  <img class="uk-border-circle img-prof-size"src="assets/img/upe-logo.gif">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Upsilon Pi Epsilon | UPE</h3>
+                </span>
+                <p>
+                  Upsilon Pi Epsilon is an international honor society created to
+                  recognize academic excellence in the Computing and Information Disciplines.
+                  The members of our UCLA chapter are among the most outstanding undergraduate
+                  Computer Science students at UCLA. Our chapter holds events for students
+                  aiming to help them gain the skills and information that will help
+                  grow both professionally and academically.
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="uk-section uk-text-center uk-container" uk-parallax="opacity: 0,1; viewport: 0.3">
+      <h2>Contact</h2>
+      <div uk-grid>
+        <div class="uk-width-1-2@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Tau Beta Pi</h3>
+          <a href="mailto:taubetapi@seas.ucla.edu">taubetapi@seas.ucla.edu</a>
+        </div>
+        <div class="uk-width-1-2@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Eta Kappa Nui</h3>
+          <a href="mailto:hkn@ee.ucla.edu">hkn@ee.ucla.edu</a>
+        </div>
+        <div class="uk-width-1-1@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Deborah Lin</h3>
+          <div>UCLA Corporate Relations</div>
+          <a href="mailto:dlin@support.ucla.edu">dlin@support.ucla.edu</a>
+        </div>
+        <div class="uk-width-1-2@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Chi Epsilon</h3>
+          <a href="mailto:xe@seas.ucla.edu">xe@seas.ucla.edu</a>
+        </div>
+        <div class="uk-width-1-2@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Upsilon Pi Epsilon</h3>
+          <a href="mailto:companies@upe.seas.ucla.edu">companies@upe.seas.ucla.edu</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -12,18 +12,28 @@
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #1e87f0;
+  background: rgba(255, 255, 255, 0.95);
 }
 
-.landing-title {
+.landing-text {
   position: absolute;
-  top: 40%;
   width: 100%;
   font-weight: bold;
-  font-size: 64px;
   color: white;
 }
 
+.landing-title {
+  top: 30%;
+  font-size: 64px;
+}
+
+.landing-subtitle {
+  top: calc(30% + 170px);
+  font-size: 48px;
+  color: yellow;
+  filter: contrast(200%);
+  background-color: rgba(30, 135, 240, 0.75);
+}
 
 
 .uk-navbar-link-skin {
@@ -37,4 +47,26 @@
 
 .uk-navbar-link-skin-right {
   padding-right: 20px;
+}
+
+.uk-sticky-fixed .uk-navbar-link-skin {
+  color: rgba(30, 135, 240, 1);
+}
+
+.no-styling {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.img-prof-size {
+  height: 80px;
+}
+
+.contact-cards {
+  padding-top: 24px;
+}
+
+.target {
+  position: absolute;
+  bottom: 80px;
 }
