@@ -17,16 +17,30 @@
           <div class="uk-navbar-left uk-navbar-link-skin">
           </div>
           <div class="uk-navbar-right">
-            <div class="uk-navbar-item">
+            <div class="uk-navbar-item uk-visible@s">
                 <div><a href="#info" class="uk-navbar-link-skin uk-navbar-link-skin-left" uk-scroll>Info <span uk-icon="info"></span></a></div>
             </div>
-            <div class="uk-navbar-item">
+            <div class="uk-navbar-item uk-visible@s">
                 <div><a href="https://goo.gl/forms/4qQFKu3Wuau0EPCJ2" class="uk-navbar-link-skin uk-navbar-link-skin-left">Company Reg. <span uk-icon="file-edit"></span></a></div>
             </div>
-            <div class="uk-navbar-item">
+            <div class="uk-navbar-item uk-visible@s">
               <div class="uk-inline">
                   <a class="uk-navbar-link-skin uk-navbar-link-skin-right">Students <span uk-icon="user"></span></a>
                   <div uk-dropdown="mode: click">Thanks for your interest! Registration is not currently open but please check back in August.</div>
+              </div>
+            </div>
+            <div class="uk-navbar-item uk-hidden@s">
+              <div class="uk-inline">
+                <a class="uk-navbar-link-skin"><span class="uk-hidden@s" uk-icon="icon: menu; ratio: 2"></span></a>
+              </div>
+              <div class="dropdown-mobile" uk-dropdown="mode: click; animation: uk-animation-slide-top-small; duration: 200">
+                <div class="mobile-nav"><a href="#info" uk-scroll><span uk-icon="info"></span> Info</a></div>
+                <div class="mobile-nav"><a href="https://goo.gl/forms/4qQFKu3Wuau0EPCJ2"><span uk-icon="file-edit"></span> Company Reg.</a></div>
+                <div class="uk-inline">
+                    <a class="mobile-nav"><span uk-icon="user"></span> Students</a>
+                    <div uk-dropdown="mode: click">Thanks for your interest! Registration is not currently open but please check back in August.</div>
+                </div>
+                <div class="mobile-nav"><a href="#"><span uk-icon="close"></span> Close</a></div>
               </div>
             </div>
           </div>
@@ -38,11 +52,14 @@
       </div>
     </div>
     <div class="uk-section uk-section-primary">
+      <section id="scroll-down" class="scroll-down target target-bottom">
+        <a href="#info" uk-scroll><span></span></a>
+      </section>
       <div id="info" class="target"></div>
       <div class="uk-container">
-        <h2 class="uk-text-center" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">The Largest Collection of Talent at UCLA</h2>
+        <h2 class="uk-text-center" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.3">The Largest Collection of Talent at UCLA</h2>
 
-        <p class="uk-text-lead" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
+        <p class="uk-text-lead" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">
           More than your average career fair, the Dean’s Student Showcase
           is a partnership between the Samueli School of Engineering and
           UCLA’s engineering honor societies to put on exclusive,
@@ -55,9 +72,8 @@
     <div class="uk-section uk-section-muted">
       <div class="uk-container">
         <h2 class="uk-text-center margin-bottom-48px" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">Meet the Honor Societies</h2>
-
         <div class="uk-text-center" uk-grid>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: -50,0; y: -50,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
             <a href="https://tbp.seas.ucla.edu" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -74,7 +90,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: 50,0; y: -50,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
             <a href="http://hkn.ee.ucla.edu/#" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -91,7 +107,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: -50,0; viewport: 0.3">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
             <a href="http://uclaxe.wixsite.com/ucla" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -109,7 +125,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; x: 50,0; viewport: 0.3">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
             <a href="https://upe.seas.ucla.edu/" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -143,16 +159,16 @@
           <a href="mailto:dlin@support.ucla.edu">dlin@support.ucla.edu</a>
         </div>
         <div class="uk-width-1-3@s contact-cards">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Upsilon Pi Epsilon</h3>
-          <a href="mailto:companies@upe.seas.ucla.edu">companies@upe.seas.ucla.edu</a>
-        </div>
-        <div class="uk-width-1-2@s contact-cards">
           <h3 class="uk-card-title uk-margin-remove-bottom">Eta Kappa Nui</h3>
           <a href="mailto:hkn@ee.ucla.edu">hkn@ee.ucla.edu</a>
         </div>
         <div class="uk-width-1-2@s contact-cards">
           <h3 class="uk-card-title uk-margin-remove-bottom">Chi Epsilon</h3>
           <a href="mailto:xe@seas.ucla.edu">xe@seas.ucla.edu</a>
+        </div>
+        <div class="uk-width-1-2@s contact-cards">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Upsilon Pi Epsilon</h3>
+          <a href="mailto:companies@upe.seas.ucla.edu">companies@upe.seas.ucla.edu</a>
         </div>
       </div>
     </div>
