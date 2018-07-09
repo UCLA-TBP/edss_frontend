@@ -1,2 +1,2 @@
-ng build --prod --base-href "https://xiaoxuwu.github.io/student_showcase/"
+ng build --prod --base-href "https://xiaoxuwu.github.io/edss_frontend/"
 ngh
