@@ -11,10 +11,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/js/uikit-icons.min.js"></script>
   </head>
   <body>
+    <div id="top"></div>
     <div class="uk-section-primary bg uk-preserve-color" uk-parallax="bgy: 200">
       <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
         <nav class="uk-navbar-container uk-margin" uk-navbar>
           <div class="uk-navbar-left uk-navbar-link-skin">
+            <a href="#top" uk-scroll><img class="logo ucla-blue" src="assets/img/logo.png" alt="dss logo"></a>
           </div>
           <div class="uk-navbar-right">
             <div class="uk-navbar-item uk-visible@s">
@@ -35,7 +37,7 @@
               </div>
               <div class="dropdown-mobile" uk-dropdown="mode: click; animation: uk-animation-slide-top-small; duration: 200">
                 <div class="mobile-nav"><a href="#info" uk-scroll><span uk-icon="info"></span> Info</a></div>
-                <div class="mobile-nav"><a href="https://goo.gl/forms/4qQFKu3Wuau0EPCJ2"><span uk-icon="file-edit"></span> Company Reg.</a></div>
+                <div class="mobile-nav"><a href="https://goo.gl/forms/zMpGlY8bAQ6UjSk43"><span uk-icon="file-edit"></span> Company Reg.</a></div>
                 <div class="uk-inline">
                     <a class="mobile-nav"><span uk-icon="user"></span> Students</a>
                     <div uk-dropdown="mode: click">Thanks for your interest! Registration is not currently open but please check back in August.</div>
@@ -47,11 +49,11 @@
         </nav>
       </div>
       <div class="uk-text-center uk-text-middle landing-text landing-middle">
-        <h1 class="landing-title">UCLA Engineering<br>Dean's Student Showcase</h1>
-        <h2 class="landing-subtitle">October 30th, 2018<br>Engineering VI, 7-9pm</h2>
+        <h1 class="landing-title">UCLA Samueli School of Engineering<br>Dean's Student Showcase</h1>
+        <h2 class="landing-subtitle">October 30th, 2018<br>Engineering VI, 4-7pm</h2>
       </div>
     </div>
-    <div class="uk-section uk-section-primary">
+    <div class="uk-section uk-section-primary ucla-blue">
       <section id="scroll-down" class="scroll-down target target-bottom">
         <a href="#info" uk-scroll><span></span></a>
       </section>
@@ -60,20 +62,18 @@
         <h2 class="uk-text-center" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.3">The Largest Collection of Talent at UCLA</h2>
 
         <p class="uk-text-lead" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.3">
-          More than your average career fair, the Dean’s Student Showcase
-          is a partnership between the Samueli School of Engineering and
-          UCLA’s engineering honor societies to put on exclusive,
-          one-of-a-kind recruiting event. With admission limited to only
-          honor society members, this the perfect opportunity to interact
-          with some of the best candidates UCLA has to offer.
+          More than your average career fair, the Dean’s Student Showcase is a
+          partnership between UCLA Samueli School of Engineering and UCLA Samueli
+          student organizations for an exclusive, one-of-a-kind opportunity for
+          companies to engage with highly sought after talent.
         </p>
       </div>
     </div>
     <div class="uk-section uk-section-muted">
       <div class="uk-container">
-        <h2 class="uk-text-center margin-bottom-48px" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">Meet the Honor Societies</h2>
+        <h2 class="uk-text-center margin-bottom-48px" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">Meet the Student Organizations</h2>
         <div class="uk-text-center" uk-grid>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
             <a href="https://tbp.seas.ucla.edu" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -90,7 +90,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
             <a href="http://hkn.ee.ucla.edu/#" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -107,7 +107,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
             <a href="http://uclaxe.wixsite.com/ucla" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -125,7 +125,7 @@
               </div>
             </a>
           </div>
-          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 25,0; viewport: 0.5">
+          <div class="uk-width-1-2@m" uk-parallax="opacity: 0,1; y: 50,0; viewport: 0.5">
             <a href="https://upe.seas.ucla.edu/" class="no-styling">
               <div class="uk-card uk-card-hover uk-card-body">
                 <span class="uk-width-expand">
@@ -146,7 +146,7 @@
         </div>
       </div>
     </div>
-    <div class="uk-section uk-text-center uk-container" uk-parallax="opacity: 0,1; viewport: 0.3">
+    <div class="uk-section uk-text-center uk-container" uk-parallax="opacity: 0,1; viewport: 0.2">
       <h2>Contact</h2>
       <div uk-grid>
         <div class="uk-width-1-3@s contact-cards">

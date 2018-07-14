@@ -8,9 +8,5 @@ import { Title }     from '@angular/platform-browser';
 })
 
 export class AppComponent {
-  title = 'UCLA Engineering Dean’s Student Showcase';
-
-  public constructor(private titleService: Title ) {
-    this.titleService.setTitle("UCLA EDSS")
-  }
+  title = 'UCLA Samueli School of Engineering Dean\'s Student Showcase';
 }
